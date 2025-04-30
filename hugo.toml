@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.jelly.science/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'infiniflux'
 theme = 'PaperMod'
 
 [caches]
