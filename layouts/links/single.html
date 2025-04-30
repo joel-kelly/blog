@@ -1,0 +1,24 @@
+{{ define "main" }}
+<article class="single-link">
+  <h1><a href="{{ .Params.externalLink }}" target="_blank" rel="noopener">{{ .Title }}</a></h1>
+  <p class="source-url">{{ .Params.sourceUrl }}</p>
+  
+  {{ if .Params.featuredImage }}
+    <div class="featured-image">
+      <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}">
+    </div>
+  {{ else if .Params.excerpt }}
+    <blockquote class="excerpt">
+      {{ .Params.excerpt | markdownify }}
+    </blockquote>
+  {{ end }}
+  
+  <div class="comment">
+    {{ .Content }}
+  </div>
+  
+  <div class="meta">
+    <span class="date">{{ .Date.Format "Mon, Jan 2, 2006 at 3:04pm" }}</span>
+  </div>
+</article>
+{{ end }}

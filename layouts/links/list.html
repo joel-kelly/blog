@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="links-container">
+  <h1>{{ .Title }}</h1>
+  {{ range .Pages.ByDate.Reverse }}
+    <article class="link-item">
+      <h2><a href="{{ .Params.externalLink }}" target="_blank" rel="noopener">{{ .Title }}</a></h2>
+      <p class="source-url">{{ .Params.sourceUrl }}</p>
+      
+      {{ if .Params.featuredImage }}
+        <div class="featured-image">
+          <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}">
+        </div>
+      {{ else if .Params.excerpt }}
+        <blockquote class="excerpt">
+          {{ .Params.excerpt | markdownify }}
+        </blockquote>
+      {{ end }}
+      
+      <div class="comment">
+        {{ .Content }}
+      </div>
+      
+      <div class="meta">
+        <a href="{{ .Permalink }}" class="permalink">{{ .Date.Format "Mon, Jan 2, 2006 at 3:04pm" }}</a>
+      </div>
+    </article>
+  {{ end }}
+</div>
+{{ end }}

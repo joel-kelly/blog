@@ -6,3 +6,9 @@ theme = 'PaperMod'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[[menu.main]]
+identifier = "links"
+name = "Links" 
+url = "/links/"
+weight = 10

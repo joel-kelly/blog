@@ -1,0 +1,50 @@
+.links-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .link-item {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .source-url {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .excerpt {
+    background: var(--entry);
+    border-left: 4px solid var(--border);
+    padding: 1rem;
+    margin: 1rem 0;
+    font-style: italic;
+    color: var(--content);
+  }
+  
+  .featured-image {
+    margin: 1rem 0;
+  }
+  
+  .featured-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .meta {
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 1rem;
+  }
+  
+  .permalink {
+    text-decoration: none;
+    color: #777;
+  }
+  
+  .permalink:hover {
+    text-decoration: underline;
+  }
