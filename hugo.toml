@@ -3,12 +3,40 @@ languageCode = 'en-us'
 title = 'infiniflux'
 theme = 'PaperMod'
 
+# RSS Configuration
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[params]
+  # PaperMod specific settings
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  disableSpecial1stPost = true
+  
+  # Social-icons configuration
+  [[params.socialIcons]]
+    name = "RSS"
+    url = "feed.xml"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
 
+# Main navigation menu
 [[menu.main]]
 identifier = "links"
 name = "Links" 
 url = "/links/"
 weight = 10
+
+[[menu.main]]
+identifier = "rss"
+name = "RSS"
+url = "/feed.xml"
+weight = 20

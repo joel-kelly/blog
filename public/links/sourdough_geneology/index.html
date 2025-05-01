@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>404 Page not found | infiniflux</title>
+<title>My Sourdough Starter Has Twins  | infiniflux</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="23andme, but for sourdough culture is an excellent business idea!">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/404.html">
+<link rel="canonical" href="http://localhost:1313/links/sourdough_geneology/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.08d3805c99ff1a7d0833e5652e4bed7cabd8959d80f8476dbf7ccdc0a2f53f3d.css" integrity="sha256-CNOAXJn/Gn0IM&#43;VlLkvtfKvYlZ2A&#43;Edtv3zNwKL1Pz0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/404.html">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/links/sourdough_geneology/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,7 +58,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -112,7 +112,26 @@
     </nav>
 </header>
 <main class="main">
-<div class="not-found">404</div>
+<article class="single-link">
+  <h1><a href="https://brainbaking.com/post/2025/04/my-sourdough-starter-has-twins/" target="_blank" rel="noopener">My Sourdough Starter Has Twins </a></h1>
+  <p class="source-url">brainbaking.com via HackerNews</p>
+  
+  
+    <div class="featured-image">
+      <img src="/images/sourdough-report-1.jpg" alt="My Sourdough Starter Has Twins ">
+    </div>
+  
+  
+  <div class="comment">
+    <p>23andme, but for sourdough culture is an <em>excellent</em> business idea!</p>
+
+  </div>
+  
+  <div class="meta">
+    <span class="date">Wed, Apr 30, 2025 at 12:30pm</span>
+  </div>
+</article>
+
     </main>
     
 <footer class="footer">
@@ -183,6 +202,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

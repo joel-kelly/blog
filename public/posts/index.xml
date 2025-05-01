@@ -4,18 +4,74 @@
     <title>Posts on infiniflux</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on infiniflux</description>
-    <generator>Hugo -- 0.147.0</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Apr 2025 17:00:13 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Apr 2025 17:00:13 -0700</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
     <item>
-      <title>Test Post</title>
-      <link>http://localhost:1313/posts/first-post/</link>
-      <pubDate>Tue, 29 Apr 2025 17:00:13 -0700</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
-&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+      <title>My Sourdough Starter Has Twins </title>
+      <link>https://brainbaking.com/post/2025/04/my-sourdough-starter-has-twins/</link>
+      <pubDate>Wed, 30 Apr 2025 12:30:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/links/sourdough_geneology/</guid>
+      <description>
+        <![CDATA[<img src="http://localhost:1313//images/sourdough-report-1.jpg" alt="My Sourdough Starter Has Twins ">]]>
+        
+        <![CDATA[<p>Source: <a href="https://brainbaking.com/post/2025/04/my-sourdough-starter-has-twins/">brainbaking.com via HackerNews</a></p>]]>
+        &lt;p&gt;23andme, but for sourdough culture is an &lt;em&gt;excellent&lt;/em&gt; business idea!&lt;/p&gt;
+
+      </description>
+      <content:encoded>
+        <![CDATA[<img src="http://localhost:1313//images/sourdough-report-1.jpg" alt="My Sourdough Starter Has Twins ">]]>
+        
+        <![CDATA[<p>Source: <a href="https://brainbaking.com/post/2025/04/my-sourdough-starter-has-twins/">brainbaking.com via HackerNews</a></p>]]>
+        &lt;p&gt;23andme, but for sourdough culture is an &lt;em&gt;excellent&lt;/em&gt; business idea!&lt;/p&gt;
+
+      </content:encoded>
+    </item>
+    <item>
+      <title>Charles Brooks Photographs the Interiors of Musical and Scientific Instruments</title>
+      <link>https://www.thisiscolossal.com/2025/04/charles-brooks-insturments/</link>
+      <pubDate>Tue, 29 Apr 2025 21:30:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/links/charles_brooks_photography/</guid>
+      <description>
+        <![CDATA[<img src="http://localhost:1313//images/brooks-violin.jpg" alt="Charles Brooks Photographs the Interiors of Musical and Scientific Instruments">]]>
+        
+        <![CDATA[<p>Source: <a href="https://www.thisiscolossal.com/2025/04/charles-brooks-insturments/">thisiscolossal.com</a></p>]]>
+        &lt;p&gt;Beatiful images of the hidden interiors of instruments (musical and scientific).&lt;/p&gt;
+
+      </description>
+      <content:encoded>
+        <![CDATA[<img src="http://localhost:1313//images/brooks-violin.jpg" alt="Charles Brooks Photographs the Interiors of Musical and Scientific Instruments">]]>
+        
+        <![CDATA[<p>Source: <a href="https://www.thisiscolossal.com/2025/04/charles-brooks-insturments/">thisiscolossal.com</a></p>]]>
+        &lt;p&gt;Beatiful images of the hidden interiors of instruments (musical and scientific).&lt;/p&gt;
+
+      </content:encoded>
+    </item>
+    <item>
+      <title>Hosting a linkblog using Hugo</title>
+      <link>https://gohugo.io/host-and-deploy/host-on-github-pages/</link>
+      <pubDate>Mon, 28 Apr 2025 17:09:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/links/test_link/</guid>
+      <description>
+        <![CDATA[<blockquote>There are three types of GitHub Pages sites: project, user, and organization. Project sites are connected to a specific project hosted on GitHub. User and organization sites are connected to a specific account on GitHub.com.</blockquote>]]>
+        
+        <![CDATA[<p>Source: <a href="https://gohugo.io/host-and-deploy/host-on-github-pages/">gohugo.io</a></p>]]>
+        &lt;p&gt;Following this guide to host this blog using Hugo on GitHub Pages.&lt;/p&gt;
+
+      </description>
+      <content:encoded>
+        <![CDATA[<blockquote>There are three types of GitHub Pages sites: project, user, and organization. Project sites are connected to a specific project hosted on GitHub. User and organization sites are connected to a specific account on GitHub.com.</blockquote>]]>
+        
+        <![CDATA[<p>Source: <a href="https://gohugo.io/host-and-deploy/host-on-github-pages/">gohugo.io</a></p>]]>
+        &lt;p&gt;Following this guide to host this blog using Hugo on GitHub Pages.&lt;/p&gt;
+
+      </content:encoded>
     </item>
   </channel>
 </rss>
