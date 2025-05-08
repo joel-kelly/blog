@@ -1,0 +1,34 @@
+/* Home page specific styles */
+.post-entry .featured-image {
+    margin: 1rem 0;
+    max-width: 100%;
+  }
+  
+  .post-entry .featured-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .post-entry .excerpt {
+    background: var(--entry);
+    border-left: 4px solid var(--border);
+    padding: 1rem;
+    margin: 1rem 0;
+    font-style: italic;
+    color: var(--content);
+  }
+  
+  .post-entry .source-url {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Make sure images don't overflow on small screens */
+  @media (max-width: 768px) {
+    .post-entry .featured-image img {
+      width: 100%;
+    }
+  }
