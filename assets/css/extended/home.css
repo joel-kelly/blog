@@ -32,3 +32,21 @@
       width: 100%;
     }
   }
+
+  
+  /* Fix for click shrinking effect */
+  .post-entry:active {
+    transform: none !important;
+    scale: none !important;
+  }
+  
+  .post-entry a:active {
+    transform: none !important;
+    scale: none !important;
+  }
+    
+  /* Remove any active effects on the article container */
+  article:active {
+    transform: none !important;
+    scale: none !important;
+  }
