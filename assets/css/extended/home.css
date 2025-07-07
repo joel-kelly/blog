@@ -33,6 +33,21 @@
     }
   }
 
+  /* Fix text truncation on home page */
+.post-entry .entry-content {
+  overflow: visible !important;
+  text-overflow: unset !important;
+  white-space: normal !important;
+  -webkit-line-clamp: unset !important;
+  display: block !important;
+  max-height: none !important;
+}
+
+.post-entry .entry-content p {
+  overflow: visible !important;
+  text-overflow: unset !important;
+  white-space: normal !important;
+}
   
   /* Fix for click shrinking effect */
   .post-entry:active {

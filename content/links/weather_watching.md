@@ -1,5 +1,5 @@
 ---
-title: "Weather_watching"
+title: "Weather Watching"
 date: 2025-07-08T13:24:07-07:00
 externalLink: "https://walzr.com/weather-watching"
 sourceUrl: "via Waxy.org"
