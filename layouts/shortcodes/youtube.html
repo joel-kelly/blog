@@ -1,0 +1,33 @@
+{{- $id := .Get 0 -}}
+{{- $privacy := .Get 1 | default false -}}
+{{- $start := .Get 2 -}}
+{{- $autoplay := .Get 3 | default false -}}
+{{- $title := .Get 4 | default "YouTube video player" -}}
+
+{{- $domain := "www.youtube.com" -}}
+{{- if $privacy -}}
+  {{- $domain = "www.youtube-nocookie.com" -}}
+{{- end -}}
+
+{{- $params := "" -}}
+{{- if $start -}}
+  {{- $params = printf "?start=%s" $start -}}
+{{- end -}}
+{{- if $autoplay -}}
+  {{- if $params -}}
+    {{- $params = printf "%s&autoplay=1" $params -}}
+  {{- else -}}
+    {{- $params = "?autoplay=1" -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="youtube-embed">
+  <iframe
+    src="https://{{ $domain }}/embed/{{ $id }}{{ $params }}"
+    title="{{ $title }}"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
