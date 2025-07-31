@@ -36,7 +36,7 @@
       <guid>{{ .Permalink }}</guid>
       <description>
         {{- if .Params.featuredImage }}
-        {{ printf "<![CDATA[<img src=\"%s%s\" alt=\"%s\">]]>" .Site.BaseURL .Params.featuredImage .Title | safeHTML }}
+        {{ printf "<![CDATA[<img src=\"%s%s\" alt=\"%s\">]]>" .Site.BaseURL (strings.TrimPrefix "/" .Params.featuredImage) .Title | safeHTML }}
         {{- end }}
         {{- if .Params.excerpt }}
         {{ printf "<![CDATA[<blockquote>%s</blockquote>]]>" .Params.excerpt | safeHTML }}
@@ -48,7 +48,7 @@
       </description>
       <content:encoded>
         {{- if .Params.featuredImage }}
-        {{ printf "<![CDATA[<img src=\"%s%s\" alt=\"%s\">]]>" .Site.BaseURL .Params.featuredImage .Title | safeHTML }}
+        {{ printf "<![CDATA[<img src=\"%s%s\" alt=\"%s\">]]>" .Site.BaseURL (strings.TrimPrefix "/" .Params.featuredImage) .Title | safeHTML }}
         {{- end }}
         {{- if .Params.excerpt }}
         {{ printf "<![CDATA[<blockquote>%s</blockquote>]]>" .Params.excerpt | safeHTML }}

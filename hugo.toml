@@ -22,7 +22,7 @@ theme = 'PaperMod'
   # Social-icons configuration
   [[params.socialIcons]]
     name = "RSS"
-    url = "feed.xml"
+    url = "index.xml"
 
 [caches]
   [caches.images]
@@ -38,5 +38,5 @@ weight = 10
 [[menu.main]]
 identifier = "rss"
 name = "RSS"
-url = "/feed.xml"
+url = "/index.xml"
 weight = 20
