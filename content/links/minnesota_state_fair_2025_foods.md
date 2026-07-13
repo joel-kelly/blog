@@ -6,3 +6,5 @@ sourceUrl: "metafilter.com"
 --- 
 
 Enjoy the infinite scroll of delicious/insane fair food... 
+
+**Update:** [2026's food list is here]({{< ref "minnesota_state_fair_2026_foods.md" >}}).
