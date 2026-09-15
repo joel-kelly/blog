@@ -6,4 +6,4 @@ sourceUrl: "notnottalmud.substack.com"
 featuredImage: "/images/why_i_cant_stop_thinking_about_papua_new_guinea_and_what_i_think_everyone_should_know_about_it.png"
 --- 
 
-Come for the fun facts about Papa New Guinea, stay for a fascinating story about first contact in the 1970s. I want to read the book referenced but it was published in 1987 and not available from my usual sources. 
+Come for the fun facts about Papa New Guinea, stay for a fascinating story about first contact in the 1930s. I want to read the book referenced but it was published in 1987 and not available from my usual sources. 
